@@ -5,6 +5,9 @@
   body{
     overflow-x: hidden;
   }
+  .container{
+    overflow-x: hidden;
+  }
   /* styles for logo */
 .logo{
   width:150px;
@@ -232,6 +235,7 @@ text-transform: uppercase;
 }
 .results-text-and-sort-container{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin:15px;
 }
@@ -244,9 +248,11 @@ text-transform: uppercase;
 }
 .sort-parameter{
   color:var(--mainBlack);
+  padding:.5rem;
+  cursor: pointer;
 }
-.fa-chevron-down{
-  font-size:.9rem;
+.sort-parameter:hover{
+  border:1px solid var(--mainBlue);
 }
 /* end of search result container */
 /* =========================== */

@@ -7,6 +7,9 @@
     /* background: var(--mainBlack);
     color:var(--mainWhite); */
   }
+  .container{
+    overflow-x: hidden;
+  }
 
 /* styles for logo */
 .logo{
@@ -232,6 +235,7 @@ margin:10px;
 }
 .results-text-and-sort-container{
   display: flex;
+  align-items: center;
   justify-content: space-between;
   margin:15px;
 }
@@ -240,7 +244,13 @@ margin:10px;
 }
 .sort-parameter{
   color:var(--mainBlack);
+  padding:1rem;
+  cursor: pointer;
 }
+.sort-parameter:hover{
+  border:1px solid var(--mainBlue);
+}
+
 /* end of search result container */
 /* =========================== */
 
