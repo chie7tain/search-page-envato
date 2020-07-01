@@ -24,8 +24,8 @@ body{
   font-family: 'Open Sans', sans-serif;
 }
 .container {
-  /* width: 1366px; */
-  /* max-width: calc(100% - 20px); */
+  width: 1366px;
+  max-width: calc(100% - 10px);
   margin: 0 auto;
   padding: 0 10px;
 }
@@ -34,7 +34,9 @@ body{
 }
 .right-arrow-in-footer{
   width:50px;
-
+}
+a:active{
+  color:var(--mainGreen);
 }
 
 

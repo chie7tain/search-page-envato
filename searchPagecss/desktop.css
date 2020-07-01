@@ -55,7 +55,7 @@ display: inline-block;
   font-size:.9rem;
 }
 .nav-links a:hover{
-  color:var(--mainWhite);
+  color:var(--mainGreen);
   background:var(--primaryColor);
 }
 
